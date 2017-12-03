@@ -1,6 +1,6 @@
 # julia-ctags
 
-This adds Julia support to [CTAGS](https://ctags.io/).
+This adds [Julia language](https://julialang.org/) support to [CTAGS](https://ctags.io/).
 
 To create CTAGS for Julia itself run
 ```
