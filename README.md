@@ -2,6 +2,13 @@
 
 This adds [Julia language](https://julialang.org/) support to [CTAGS](https://ctags.io/).
 
+To obtain the ctags configuration file run
+```julialang
+] add JuliaCtags
+get_config()
+```
+which will create a file called `julia_ctags` in the current directory.
+
 To create CTAGS for Julia itself run
 ```
 ctags -R -e --options=path-to-this-ctags-file --totals=yes path-to-julia/base
