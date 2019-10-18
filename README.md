@@ -2,6 +2,18 @@
 
 This adds [Julia language](https://julialang.org/) support to [CTAGS](https://ctags.io/).
 
+To install run
+```julialang
+using Pkg
+Pkg.add("Interpolations")
+```
+or
+```
+] add JuliaCtags
+```
+To obtain the ctags configuration file use `write_config(filename="./julia_ctags")` which will create a file called `julia_ctags` in the current directory.
+The `julia_ctags` file will be passed to the `ctags` command via the `--options` flag.
+
 To create CTAGS for Julia itself run
 ```
 ctags -R -e --options=path-to-this-ctags-file --totals=yes path-to-julia/base
