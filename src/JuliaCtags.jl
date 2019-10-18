@@ -2,9 +2,9 @@ module JuliaCtags
 
 export get_config
 
-function get_config(destfile = "julia_ctags")
+function write_config(filename = "./julia_ctags")
     sourcefile = joinpath(@__DIR__, "ctags")
-    cp(sourcefile, destfile)
+    cp(sourcefile, filename)
 end
 
 end # module
