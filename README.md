@@ -12,6 +12,7 @@ or
 ] add JuliaCtags
 ```
 To obtain the ctags configuration file use `write_config(filename="./julia_ctags")` which will create a file called `julia_ctags` in the current directory.
+The `julia_ctags` file will be passed to the `ctags` command via the `--options` flag.
 
 To create CTAGS for Julia itself run
 ```
