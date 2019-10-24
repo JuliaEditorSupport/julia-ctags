@@ -1,0 +1,8 @@
+name = "julia-ctags"
+uuid = "106e64ca-b22d-11e9-257b-81adddf2616c"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
